@@ -1,0 +1,133 @@
+body {font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    min-height: 100%;
+}
+
+/* Hero */
+
+.hero {background-color: #1F2937;
+    color: white;
+padding: 0px 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 0px; 
+    background-color: #1F2937;
+    color: white;
+}
+
+.links p {
+    display: inline-block; 
+    margin: 0 10px; 
+    font-size: 18px;
+}
+
+h2 {font-size: 24px;}
+
+.main-text {display: flex;
+align-items: center;
+padding: 50px 0px;
+gap: 30px;
+}
+
+.content {flex: 2;}
+
+.content h1 {font-size: 48px;
+font-weight: bold;
+flex-wrap: wrap;
+}
+
+.content p {font-size: 18px;
+text-align: justify;
+}
+
+.content button {padding: 10px 20px;
+font-size: 18px;
+background-color: antiquewhite;
+border: none;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.image {flex: 1;
+text-align: center;
+background-color: gray;
+padding: 45px
+}
+
+/* info */
+
+.info {padding: 0px 50px;
+margin-bottom: 50px;}
+
+.tastes {display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+padding: 5px 100px;
+}
+
+.tastes p {text-align: center;}
+
+.info h1 {text-align: center;}
+
+.box {width: 150px;}
+
+.boxes {border: 2px solid #1F2937;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+color: white;
+}
+
+/* Quote */
+
+.quote {padding: 50px 100px;
+background-color: #e5e7eb;
+color: #1f2937;
+}
+
+.quotes {font-style: italic;
+font-weight: lighter;
+font-size: 30px;
+}
+
+.musk {text-align: right;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* Action */
+
+.call {display: flex;
+justify-content: space-around;
+background-color: antiquewhite;
+margin: 50px;
+padding: 20px 50px;
+border-radius: 8px;
+}
+
+.action h3 {font-size: 25px;}
+
+.call button {padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Footer */
+
+.footer {background-color: #1F2937;
+    color: white;
+    padding: 0px 50px;
+    font-size: 18px;
+    display: flex;
+}
